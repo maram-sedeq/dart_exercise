@@ -1,36 +1,84 @@
-# Mini Banking System – Dart
+# Dart Practice Projects
 
-## Project Overview
+## Overview
 
-A simple console-based banking system developed using Dart to practice and apply fundamental programming concepts through a practical banking scenario.
+This repository contains two practical projects developed using Dart to strengthen programming fundamentals and apply Object-Oriented Programming (OOP) concepts through hands-on practice.
 
-The project simulates basic bank account operations, including account creation, deposits, withdrawals, and transaction history management.
+## Projects
 
-## Features
+### 1. Mini Banking System
 
-- **Account Creation:** Initialize a bank account with an owner's name and an initial balance.
-- **Deposit:** Add funds to the account with amount validation.
-- **Withdrawal:** Withdraw funds while checking the available balance.
-- **Transaction History:** Store and display deposit and withdrawal records.
-- **Account Information:** Display the account owner's name, current balance, and transaction history.
-- **Asynchronous Account Fetching:** Simulate retrieving account information using Future, async, and await.
+A simple console-based banking system that simulates basic banking operations and account management.
 
-## Dart Concepts Applied
+**Features**
+- Create a bank account.
+- Deposit money.
+- Withdraw money.
+- Validate deposit and withdrawal amounts.
+- Track account transactions.
+- Display account information and current balance.
+- Simulate asynchronous account retrieval.
 
-- Object-Oriented Programming (OOP).
-- Classes, Objects, and Constructors.
-- Encapsulation using private properties and Getters.
-- Functions and Methods.
-- Conditional Statements.
-- Lists and Loops.
-- Asynchronous Programming (Future, async, await).
+**Dart Concepts Applied**
+- Variables and Data Types
+- Functions and Methods
+- Conditional Statements
+- Lists and Collections
+- Classes and Objects
+- Constructors
+- Encapsulation
+- Future, async, and await
 
-## How to Run
-
-Make sure Dart SDK is installed, then run the following command from the project directory:
+**How to Run**
 
 ```bash
 dart run main.dart
 ```
 
+### 2. Task Management System
 
+A simple console-based application developed to manage tasks and practice Dart programming concepts.
+
+**Features**
+- Add new tasks.
+- Enter task ID, title, and description.
+- Set task completion status.
+- Specify a due date.
+- Assign a priority level from 1 to 5.
+- Remove tasks.
+- Display all available tasks.
+- Simulate asynchronous data loading with a 5-second delay.
+
+**Dart Concepts Applied**
+- Variables and Data Types
+- User Input and Output
+- Conditional Statements
+- Functions and Methods
+- Collections
+- Classes and Objects
+- Object-Oriented Programming (OOP)
+- Asynchronous Programming (Future, async, await)
+
+**Available Operations**
+
+```text
+1. Add Task
+2. Remove Task
+3. Display All Tasks
+4. Exit
+```
+
+**How to Run**
+
+```bash
+dart run task_management_sys.dart
+```
+
+## Purpose
+
+These projects were created as part of my Dart learning journey to improve practical programming skills, understand core language concepts, and gain experience building console-based applications.
+
+---
+
+**Language:** Dart  
+**Repository Type:** Learning & Practice Projects
