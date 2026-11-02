@@ -25,15 +25,6 @@ The project simulates basic bank account operations, including account creation,
 - Lists and Loops.
 - Asynchronous Programming (Future, async, await).
 
-## Project Structure
-
-```text
-mini_banking_system/
-│
-├── main.dart
-└── README.md
-```
-
 ## How to Run
 
 Make sure Dart SDK is installed, then run the following command from the project directory:
@@ -42,19 +33,4 @@ Make sure Dart SDK is installed, then run the following command from the project
 dart run main.dart
 ```
 
-## Sample Output
 
-```text
-Loading account...
-Deposit successful
-Withdrawal successful
-Owner: Mona
-Balance: 1300.0
-Transactions:
-Deposited: 500.0
-Withdrawn: 200.0
-```
-
-## Purpose
-
-The purpose of this project is to strengthen Dart programming skills by applying fundamental concepts in a practical scenario and building a foundation for Flutter development.
